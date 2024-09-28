@@ -94,11 +94,13 @@ nav ul li a:hover{
 }
 
 .featured-image{
-    width: 420px;
+    width: 450px;
     position: absolute;
+    margin-top: 50px;
     bottom: 0;
     right: 10%;
 }
+
 
 .featured-image.animation{
     animation-delay: 1.5s;
@@ -155,3 +157,32 @@ nav ul li a:hover{
     width: 80%;
     margin: 0 auto;
 }
+
+.section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.section p::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
